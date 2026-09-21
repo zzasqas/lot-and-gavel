@@ -1,7 +1,7 @@
 // sw.js — Lot & Gavel service worker
-// f4496dbaeed4 is replaced by build.js at build time; bumping it invalidates old caches.
+// 3d202f6574d6 is replaced by build.js at build time; bumping it invalidates old caches.
 
-const VERSION = 'f4496dbaeed4';
+const VERSION = '3d202f6574d6';
 const SHELL_CACHE = `lotgavel-shell-${VERSION}`;
 const ART_CACHE   = `lotgavel-art-${VERSION}`;
 
